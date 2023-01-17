@@ -1,0 +1,45 @@
+.header{
+    width: 100px;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    background-color: #252525;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 35%;
+}
+
+.menu li{
+list-style:none;
+margin: 10px;
+}
+
+.nav{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav:hover{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+
+
+
+
+
+
